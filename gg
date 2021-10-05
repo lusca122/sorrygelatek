@@ -407,8 +407,8 @@ for _,v in pairs(chara.Rifle:GetChildren()) do
 	end
 end
 
-local pewpew = chara["Meshes/archangelrifleAccessory"].Handle
-local pewpewalt = game.Players.LocalPlayer.Character["Meshes/archangelrifleAccessory"].Handle
+local pewpew = chara["Keyboard"].Handle
+local pewpewalt = game.Players.LocalPlayer.Character["Keyboard"].Handle
 
 local CountSCIFIMOVIELOL = 1
 function attach(Part0,Part1,Position,Angle)
