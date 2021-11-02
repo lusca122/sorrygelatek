@@ -20286,14 +20286,7 @@ preview2:NewButton("Circle Ganutlet", function()
   
   
   
-  
-  local real = Character["Bagaccessory"].Handle
-  local atho = Instance.new("Attachment", real)
-  local athp = Instance.new("Attachment", real)
-  real:FindFirstChildOfClass("AlignPosition").Attachment1 = athp
-  real:FindFirstChildOfClass("AlignOrientation").Attachment1 = atho
-  atho.Rotation = Vector3.new(180,0,0)
-  athp.Position = Vector3.new(0.29,0,0)
+ 
   
   spawn(function() while wait() do
             real.Position = Character.Shield.Handle.Position
