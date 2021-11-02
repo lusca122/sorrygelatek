@@ -16195,7 +16195,7 @@ mmask.Scale = Vector3.new(1.25, 1.25, 1.25)
 mmask.MeshId,mmask.TextureId = 'http://www.roblox.com/asset/?id=12470186','http://www.roblox.com/asset/?id=12470201'
 
 local pewpew = game:GetService("Workspace").GelatekReanimation["AR-L 10 [Back]"].Handle
-local maskalt = game:GetService("Workspace").GelatekReanimation.WGrowingCorruptionR.Handle
+local maskalt = game:GetService("Workspace").GelatekReanimation
 local athp = Instance.new("Attachment",maskalt)
 local atho = Instance.new("Attachment",pewpew)
 
